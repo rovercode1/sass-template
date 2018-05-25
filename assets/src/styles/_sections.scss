@@ -1,0 +1,51 @@
+
+.section-bg{
+	padding:10px 0px 100px 0px;
+	background-size:cover ;
+	background-position: center; 
+}
+
+.leading{
+	font-size: 50px;
+	margin:30px 0px; 
+}
+
+.tag{
+	font-size: 16px;
+	margin:10px 0px; 
+}
+
+
+.base-section{
+	color: $section-color;
+	padding: 80px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.base-header{
+	text-align: center;
+	font-size: 70px;
+	margin-bottom: 70px;
+	font-weight: 100;
+}
+
+.image .section-img {
+	max-width: 100%;
+	width: 500px;
+}
+
+.image img{
+	margin:40px 0px;
+}
+
+img.section-img{
+	max-width: 100%;
+	height: auto;
+}
+
+.img-container {
+	float: left;
+	margin: auto;
+	width: 100%;
+	padding: 20px 0px;
+}

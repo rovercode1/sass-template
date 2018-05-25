@@ -1,0 +1,59 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.wrap{
+	width: inherit;
+	overflow: hidden;
+	margin: auto;
+}
+
+.overlay{
+	background: rgba(253, 253, 253, 0.644);
+}
+
+.line {
+	width:80%;
+	background-color:red;
+	border:1px solid $main-color;
+}
+
+.container{
+	width:80%;
+	overflow: hidden;
+	margin: auto;
+}
+
+.flex-box{
+	display:flex;
+}
+
+.container-flex-fluid{
+	width:95%;
+	display:flex;
+	overflow: hidden;
+	margin: auto;
+	align-items: center;  
+}
+.container-flex{
+	width:80%;
+	display:flex;
+	overflow: hidden;
+	margin: auto;
+	align-items: center;  
+}
+.box-1{
+	flex:1;
+	align-items: center;
+}
+
+.box-2{
+	flex:2;
+	align-items: center;
+}
+.div-center{
+	align-items: center;
+	justify-content: center;
+	display:flex;
+	margin: auto;
+	overflow: hidden;
+}
